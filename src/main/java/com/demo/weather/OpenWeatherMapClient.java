@@ -1,17 +1,14 @@
 package com.demo.weather;
 
-import com.demo.weather.domain.OWMResponse;
+import com.demo.weather.model.OWMResponse;
 import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.util.UriComponents;
 import org.springframework.web.util.UriComponentsBuilder;
 
 import java.io.UnsupportedEncodingException;
-import java.util.Map;
 
 @Component
 public class OpenWeatherMapClient {

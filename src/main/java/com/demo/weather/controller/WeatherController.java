@@ -2,7 +2,7 @@ package com.demo.weather.controller;
 
 
 import com.demo.weather.service.DemoWeatherService;
-import com.demo.weather.domain.Weather;
+import com.demo.weather.model.Weather;
 import lombok.AllArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
