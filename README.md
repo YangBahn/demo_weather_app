@@ -2,7 +2,8 @@
  <br />
  
 
-For convenience, I built and pushed a dockerImage to a Docker Hub repository<br />
+For convenience, I built + pushed a docker image of this repository to Docker Hub repository<br />
+https://hub.docker.com/repository/docker/kevinyang8398/demo-weather-app
 
 **To Run the image:**<br />
 1. Install Docker if not done yet
