@@ -1,21 +1,19 @@
 # demo_weather_app
  <br />
  
-**Build Jar** <br />
-```mvn package spring-boot:repackage```
- <br />
- <br />
 
-**Run Jar Locally** <br />
-From the jar output folder ( ~/target ) <br />
-```java -jar weather-0.0.1-SNAPSHOT-spring-boot.jar```
- <br />
-  <br />
-  
-**API** <br />
+For convenience, I built and pushed a dockerImage to a Docker Hub repository<br />
+
+**To Run the image:**<br />
+1. Install Docker if not done yet
+2. To download docker image from hub ```docker pull kevinyang8398/demo-weather-app:latest```
+3. Then run the image ```docker run -p 8081:8081 kevinyang8398/demo-weather-app```
+<br />
+
+**REST call Example** <br />
 ```http://localhost:8081/api/{zipCode}```
 
-**Response Example** <br />
+**Response** <br />
 ```
 {
     "humidity": 30,
