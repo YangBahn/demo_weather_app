@@ -7,8 +7,9 @@ https://hub.docker.com/repository/docker/kevinyang8398/demo-weather-app
 
 **To Run the image:**<br />
 1. Install Docker if not done yet
-2. To download docker image from hub ```docker pull kevinyang8398/demo-weather-app:latest```
-3. Then run the image ```docker run -p 8081:8081 kevinyang8398/demo-weather-app```
+2. Create Docker Hub account if havn't joined already.
+3. To download docker image from hub ```docker pull kevinyang8398/demo-weather-app:latest```
+4. Then run the image ```docker run -p 8081:8081 kevinyang8398/demo-weather-app```
 <br />
 
 **REST call Example** <br />
